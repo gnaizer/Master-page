@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'DINPro-Regular';
+    src: url('./assets/fonts/DINPro-Regular_13937.ttf');
+    }
+
+@font-face {
+    font-family: 'DINPro-Medium';
+    src: url('./assets/fonts/DINPro-Medium_13936.ttf');
+    }
+
+@font-face {
+    font-family: 'DINPro-Bold';
+    src: url('./assets/fonts/DINPro-Bold_13934.ttf');
+    }
+
+body {
+   width: 1366px;
+   height: 928px;
+   font-family: DINPro-Regular;
+   font-size: 14px;
+   margin: 0;
+}
+.header-top {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 63px;
+   background-color: #D2D2D2;
+   padding: 0 21px 0 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+.nav {
+   display: flex;
+   align-items: center;
+   width: 115px;
+   font-family: DINPro-Medium;
+   color: #6E6E6E;
+   margin: 0 10px 0 10px;
+}
+
+.nav:hover {
+    background-color: #C1C1C1;
+    border-radius: 2px;
+}
+
+.user-photo {
+    display: flex;
+    align-items: center;
+}
+
+.user-photo img {
+    border-radius: 50%;
+}
+.header-bottom {
+   display: flex;
+   flex-direction: row;
+   margin: 0 20px 0 20px;
+}
+
+.header-bottom div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: DINPro-Medium;
+    color: #6E6E6E;
+    width: 87px;
+    height: 59px;
+    margin-top: 6px;
+}
+
+.header-bottom div p {
+    margin: 0;
+}
+
+.header-bottom div:hover {
+    background-color: #E1E1E1;
+    border-radius: 2px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6px 19px 0 19px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    width: 906px;
+
+}
+
+
+article .location-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 51px;
+    background-color: #B52F54;
+    color: #ffffff;
+    padding: 0px 21px 0px 30px;
+} 
+
+.location-menu div p{
+    font-size: 19px;
+    font-family: DINPro-Medium;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 394px;
+    /* padding: 0px 15px 0px 20px; */
+}
+
+.aside-top {
+    border: 1px solid #E6E6E6;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 51px;
+    background-color: #B52F54;
+    color: #ffffff;
+    padding: 0px 21px 0px 30px;
+}
+
+.contacts div p {
+    font-size: 19px;
+    font-family: DINPro-Medium;
+}
+
+.wearers-cearers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: DINPro-Medium;
+    color: #6E6E6E;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.wearers-cearers div:hover {
+    background-color: transparent;
+    border-bottom: 3px solid #B52F54; 
+    color: #B52F54;
+}
+
+.add-person-first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: DINPro-Medium;
+    color: #6E6E6E;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 0px 15px 0px 20px;
+}
+
+.add-person-first-row div svg {
+    border: 1px solid #EAEAEA;
+    box-shadow: 2px 2px 1px #EAEAEA; 
+    border-radius: 3px;
+}
+
+.users-row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.users-row1 div {
+    margin: 0 20px 0 0;
+}
+
+.add-person-second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: DINPro-Medium;
+    color: #6E6E6E;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 0px 15px 0px 20px;
+}
+
+.add-person-second-row div svg {
+    border: 1px solid #EAEAEA;
+    box-shadow: 2px 2px 1px #EAEAEA; 
+    border-radius: 3px;
+}
+
+.users-row2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.users-row2 div {
+    margin: 0 20px 0 0;
+}
+
+.add-users {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-family: DINPro-Medium;
+    color: #B52F54;
+    padding: 0px 15px 0px 20px;
+}
+
+.aside-bottom {
+    border: 1px solid #E6E6E6;
+}
+
+.notifications {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 51px;
+    background-color: #B52F54;
+    color: #ffffff;
+    padding: 0px 21px 0px 30px;
+}
+
+.notifications div p {
+    font-size: 19px;
+    font-family: DINPro-Medium;
+}
+
+.logtime {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.logtime svg {
+    padding: 0 0 0 20px;
+}
+
+.msg {
+    font-family: DINPro-Regular;
+    font-size: 12px;
+    margin: 0;
+}
+
+.users-button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-family: DINPro-Medium;
+    color: #6E6E6E;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 0px 15px 0px 20px;
+}
+
+.users-button1 p{
+padding: 0 0 0 10px;
+}
+
+.users-button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-family: DINPro-Medium;
+    color: #6E6E6E;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 0px 15px 0px 20px;
+}
+
+.users-button2 p {
+    padding: 0 0 0 10px;
+}
+
+.users-button3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-family: DINPro-Medium;
+    color: #6E6E6E;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 0px 15px 0px 20px;
+}
+
+.users-button3 p {
+    padding: 0 0 0 10px;
+}
+
+.see-all {
+    color: #B3B3B3;
+    padding: 0px 15px 0px 20px;
+}
+
+.add-tile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 86px;
+    border: 1px solid #E6E6E6; 
+    border-style: dashed;
+    background-color: #F2F2F2;
+}
+
+.add-tile div {
+    font-size: 19px;
+    font-family: DINPro-Medium;
+    color: #6E6E6E;
+    padding: 0 0 0 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: DINPro-Medium;
+    color: #6E6E6E;
+}
+
+footer p {
+    margin: 40px 15px 0 0;
+}
