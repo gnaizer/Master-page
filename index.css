@@ -261,6 +261,10 @@ aside {
     margin: 0;
 }
 
+.msg-button {
+    margin: 0 0 20px 0;
+}
+
 .users-button1 {
     display: flex;
     flex-direction: row;
